@@ -1,0 +1,72 @@
+/* CSS styles for the popup box and carousel */
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .popup-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #carousel-image {
+    max-width: 400px;
+    max-height: 400px;
+  }
+  
+  .carousel-thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .carousel-thumbnail img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .popup-text {
+    margin-top: 10px;
+  }
+  
+  .popup-text h2 {
+    font-size: 24px;
+  }
+  
+  .popup-text p {
+    font-size: 16px;
+  }

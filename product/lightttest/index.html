@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Popup Box with Carousel</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <img src="your-image.jpg" onclick="openPopup()" alt="Open Popup Box">
+    
+    <div id="popup" class="popup">
+      <span class="close" onclick="closePopup()">&times;</span>
+      
+      <div class="popup-content">
+        <div class="carousel-container">
+          <img id="carousel-image" src="../img/award.png">
+          <div class="carousel-thumbnail">
+            <img onclick="setCarouselImage('../img/award.png')" src="../img/award.png">
+            <img onclick="setCarouselImage('../img/award.png')" src="../img/award.png">
+            <img onclick="setCarouselImage('../img/award.png')" src="../img/award.png">
+          </div>
+        </div>
+        <div class="popup-text">
+          <h2>Popup Box Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod purus id urna pharetra sollicitudin. Proin a bibendum elit. Curabitur pulvinar convallis purus, et vestibulum sapien tincidunt a. Nullam eleifend arcu eget mauris rhoncus, non lobortis augue dapibus. Sed quis urna eu nibh tristique faucibus. Integer pharetra, turpis eu ultricies tincidunt, lacus sapien mollis sapien, vel rutrum nunc odio ut orci.</p>
+        </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
